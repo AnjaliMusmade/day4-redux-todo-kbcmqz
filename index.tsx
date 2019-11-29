@@ -18,7 +18,7 @@ store.subscribe(()=>console.log(console.log(store.getState())));
 
 store.dispatch(addToDo("Onion"));
 store.dispatch({type:"ADD_TODO",text:"Pen"});
-// store.dispatch({type:"ADD_TODO",text:"Milk"});
-// store.dispatch({type:"TOGGLE_TODO",text:"Onion"});
-// store.dispatch({type:"SET_FILTER",visibility:"SHOW_COMPLETED"});
-// store.dispatch({type:"SET_COLOR",color:"blue"});
+ store.dispatch({type:"ADD_TODO",text:"Milk"});
+ store.dispatch({type:"TOGGLE_TODO",text:"Onion"});
+ store.dispatch({type:"SET_FILTER",visibility:"SHOW_COMPLETED"});
+ store.dispatch({type:"SET_COLOR",color:"blue"});
