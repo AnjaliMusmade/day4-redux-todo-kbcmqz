@@ -12,17 +12,17 @@ export function toggleToDO(text: string) {
   };
 }
 
-export function setFilter(text: string) {
+export function setFilter(visibility: string) {
   return {
     type: "SET_FILTER",
-    text: text
+    visibility: visibility
   };
 }
 
 export function setColor(color: string) {
   return {
     type: "SET_COLOR",
-    text: color
+    color: color
   };
 }
 
