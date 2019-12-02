@@ -5,21 +5,21 @@ export function addToDo(text: string) {
   };
 }
 
-export function TOGGLE_TODO(text: string) {
+export function toggleToDO(text: string) {
   return {
     type: "TOGGLE_TODO",
     text: text
   };
 }
 
-export function SET_FILTER(text: string) {
+export function setFilter(text: string) {
   return {
     type: "SET_FILTER",
     text: text
   };
 }
 
-export function SET_COLOR(color: string) {
+export function setColor(color: string) {
   return {
     type: "SET_COLOR",
     text: color
